@@ -12,7 +12,7 @@ const Education = ({ education, deleteEducation }) => {
       <td>
         <Moment format="YYYY/MM/DD">{edu.from}</Moment> -{" "}
         {edu.to === null ? (
-          " Now"
+          " Present"
         ) : (
           <Moment format="YYYY/MM/DD">{edu.to}</Moment>
         )}
